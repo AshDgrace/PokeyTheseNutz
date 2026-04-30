@@ -1,0 +1,21 @@
+{
+  "publish": {
+    "Enabled": false,
+    "ProjectConfig": {
+      "Title": "Detail Dirt Large",
+      "Type": "fbx",
+      "Org": "local",
+      "Ident": "detaildirtlarge",
+      "Schema": 0,
+      "IncludeSourceFiles": false,
+      "Resources": null,
+      "PackageReferences": null,
+      "EditorReferences": null,
+      "Mounts": null,
+      "IsStandaloneOnly": false,
+      "Metadata": {
+        "SingleAssetSource": "models/fbx format/detail-dirt-large.fbx"
+      }
+    }
+  }
+}

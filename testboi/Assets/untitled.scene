@@ -6,8 +6,8 @@
       "__version": 2,
       "Flags": 0,
       "Name": "Main Camera",
-      "Position": "1,1,1",
-      "Rotation": "0,0,0,1",
+      "Position": "147.546997,1918.41309,164.543671",
+      "Rotation": "0.0679577291,0.161312088,-0.382241786,0.907332003",
       "Scale": "1,1,1",
       "Tags": "",
       "Enabled": true,
@@ -25,7 +25,7 @@
           "BackgroundColor": "0.33333,0.46275,0.52157,1",
           "ClearFlags": "All",
           "EnablePostProcessing": true,
-          "FieldOfView": 60,
+          "FieldOfView": 90,
           "FovAxis": "Horizontal",
           "IsMainCamera": true,
           "OnComponentDestroy": null,
@@ -38,7 +38,7 @@
           "OrthographicHeight": 1204,
           "PostProcessAnchor": null,
           "Priority": 1,
-          "RenderExcludeTags": "",
+          "RenderExcludeTags": "viewer",
           "RenderTags": "",
           "RenderTexture": null,
           "TargetEye": "None",
@@ -224,229 +224,13 @@
       "Children": []
     },
     {
-      "__guid": "77040ed3-5656-48fe-ab2a-41b41ee93f57",
-      "__version": 2,
-      "Flags": 0,
-      "Name": "detail-crystal-large",
-      "Position": "-132.173859,1931.89697,-1.55811501",
-      "Rotation": "0,0,0,1",
-      "Scale": "1,1,1",
-      "Tags": "",
-      "Enabled": true,
-      "NetworkMode": 2,
-      "NetworkFlags": 0,
-      "NetworkOrphaned": 0,
-      "NetworkTransmit": true,
-      "OwnerTransfer": 1,
-      "Components": [
-        {
-          "__type": "Sandbox.ModelRenderer",
-          "__guid": "68fa2a58-1c22-423f-b280-4d93eab515d9",
-          "__enabled": true,
-          "Flags": 0,
-          "BodyGroups": 18446744073709551615,
-          "CreateAttachments": false,
-          "LodOverride": null,
-          "MaterialGroup": null,
-          "MaterialOverride": "td/colormap.vmat",
-          "Materials": null,
-          "Model": "td/detail-crystal-large.vmdl",
-          "OnComponentDestroy": null,
-          "OnComponentDisabled": null,
-          "OnComponentEnabled": null,
-          "OnComponentFixedUpdate": null,
-          "OnComponentStart": null,
-          "OnComponentUpdate": null,
-          "RenderOptions": {
-            "GameLayer": true,
-            "OverlayLayer": false,
-            "BloomLayer": false,
-            "AfterUILayer": false
-          },
-          "RenderType": "On",
-          "Tint": "1,1,1,1"
-        },
-        {
-          "__type": "Sandbox.BoxCollider",
-          "__guid": "d32209e8-7260-4e39-9794-dc6de5f14252",
-          "__enabled": true,
-          "Flags": 0,
-          "Center": "0,0,0",
-          "ColliderFlags": 0,
-          "Elasticity": null,
-          "Friction": null,
-          "IsTrigger": false,
-          "OnComponentDestroy": null,
-          "OnComponentDisabled": null,
-          "OnComponentEnabled": null,
-          "OnComponentFixedUpdate": null,
-          "OnComponentStart": null,
-          "OnComponentUpdate": null,
-          "OnObjectTriggerEnter": null,
-          "OnObjectTriggerExit": null,
-          "OnTriggerEnter": null,
-          "OnTriggerExit": null,
-          "RollingResistance": null,
-          "Scale": "80,80,100",
-          "Static": false,
-          "Surface": null,
-          "SurfaceVelocity": "0,0,0"
-        }
-      ],
-      "Children": []
-    },
-    {
-      "__guid": "aa6b36a4-fd73-4cee-980a-aa30fb5b32a0",
-      "__version": 2,
-      "Flags": 0,
-      "Name": "detail-rocks-large",
-      "Position": "-19.0129547,1950.9353,-3.99098158",
-      "Rotation": "0,0,0,1",
-      "Scale": "1,1,1",
-      "Tags": "",
-      "Enabled": true,
-      "NetworkMode": 2,
-      "NetworkFlags": 0,
-      "NetworkOrphaned": 0,
-      "NetworkTransmit": true,
-      "OwnerTransfer": 1,
-      "Components": [
-        {
-          "__type": "Sandbox.ModelRenderer",
-          "__guid": "b1d66b01-abd5-47e5-8027-89bcaba672b3",
-          "__enabled": true,
-          "Flags": 0,
-          "BodyGroups": 18446744073709551615,
-          "CreateAttachments": false,
-          "LodOverride": null,
-          "MaterialGroup": null,
-          "MaterialOverride": "td/colormap.vmat",
-          "Materials": null,
-          "Model": "td/detail-rocks-large.vmdl",
-          "OnComponentDestroy": null,
-          "OnComponentDisabled": null,
-          "OnComponentEnabled": null,
-          "OnComponentFixedUpdate": null,
-          "OnComponentStart": null,
-          "OnComponentUpdate": null,
-          "RenderOptions": {
-            "GameLayer": true,
-            "OverlayLayer": false,
-            "BloomLayer": false,
-            "AfterUILayer": false
-          },
-          "RenderType": "On",
-          "Tint": "1,1,1,1"
-        },
-        {
-          "__type": "Sandbox.BoxCollider",
-          "__guid": "f0005250-c250-4333-ab9d-886738b1cf54",
-          "__enabled": true,
-          "Flags": 0,
-          "Center": "0,0,0",
-          "ColliderFlags": 0,
-          "Elasticity": null,
-          "Friction": null,
-          "IsTrigger": false,
-          "OnComponentDestroy": null,
-          "OnComponentDisabled": null,
-          "OnComponentEnabled": null,
-          "OnComponentFixedUpdate": null,
-          "OnComponentStart": null,
-          "OnComponentUpdate": null,
-          "OnObjectTriggerEnter": null,
-          "OnObjectTriggerExit": null,
-          "OnTriggerEnter": null,
-          "OnTriggerExit": null,
-          "RollingResistance": null,
-          "Scale": "80,80,80",
-          "Static": false,
-          "Surface": null,
-          "SurfaceVelocity": "0,0,0"
-        }
-      ],
-      "Children": []
-    },
-    {
-      "__guid": "bdb303ec-a224-40f3-9faa-330ab56c1e93",
-      "__version": 2,
-      "Flags": 0,
-      "Name": "detail-tree-large",
-      "Position": "167.761505,1913.99915,-3.56162071",
-      "Rotation": "0,0,0,1",
-      "Scale": "2,2,3",
-      "Tags": "",
-      "Enabled": true,
-      "NetworkMode": 2,
-      "NetworkFlags": 0,
-      "NetworkOrphaned": 0,
-      "NetworkTransmit": true,
-      "OwnerTransfer": 1,
-      "Components": [
-        {
-          "__type": "Sandbox.ModelRenderer",
-          "__guid": "7de7e656-9a6e-4aa7-973c-00e5ec46dbf4",
-          "__enabled": true,
-          "Flags": 0,
-          "BodyGroups": 18446744073709551615,
-          "CreateAttachments": false,
-          "LodOverride": null,
-          "MaterialGroup": null,
-          "MaterialOverride": "td/colormap.vmat",
-          "Materials": null,
-          "Model": "td/detail-tree-large.vmdl",
-          "OnComponentDestroy": null,
-          "OnComponentDisabled": null,
-          "OnComponentEnabled": null,
-          "OnComponentFixedUpdate": null,
-          "OnComponentStart": null,
-          "OnComponentUpdate": null,
-          "RenderOptions": {
-            "GameLayer": true,
-            "OverlayLayer": false,
-            "BloomLayer": false,
-            "AfterUILayer": false
-          },
-          "RenderType": "On",
-          "Tint": "1,1,1,1"
-        },
-        {
-          "__type": "Sandbox.BoxCollider",
-          "__guid": "8b38dc00-40df-446a-bef0-563b0650f69b",
-          "__enabled": true,
-          "Flags": 0,
-          "Center": "0,0,0",
-          "ColliderFlags": 0,
-          "Elasticity": null,
-          "Friction": null,
-          "IsTrigger": false,
-          "OnComponentDestroy": null,
-          "OnComponentDisabled": null,
-          "OnComponentEnabled": null,
-          "OnComponentFixedUpdate": null,
-          "OnComponentStart": null,
-          "OnComponentUpdate": null,
-          "OnObjectTriggerEnter": null,
-          "OnObjectTriggerExit": null,
-          "OnTriggerEnter": null,
-          "OnTriggerExit": null,
-          "RollingResistance": null,
-          "Scale": "60,50,160",
-          "Static": false,
-          "Surface": null,
-          "SurfaceVelocity": "0,0,0"
-        }
-      ],
-      "Children": []
-    },
-    {
-      "__guid": "df90593a-851a-4d5c-b4e2-0eb3f1edfd54",
+      "__guid": "6102da25-ddc2-473b-8f3a-ae917d2ed258",
       "__version": 2,
       "Flags": 0,
       "Name": "tower-round-crystals",
-      "Position": "-603.10376,1403.63562,-67.0299683",
+      "Position": "22.4931831,991.895752,-19.7995911",
       "Rotation": "0,0,0,1",
-      "Scale": "9,9,9",
+      "Scale": "5,5,5",
       "Tags": "",
       "Enabled": true,
       "NetworkMode": 2,
@@ -457,16 +241,16 @@
       "Components": [
         {
           "__type": "Sandbox.ModelRenderer",
-          "__guid": "adc674fd-1532-4a7b-8456-40f18647209c",
+          "__guid": "3d74aef7-494e-4a1e-a4b6-357ac753971c",
           "__enabled": true,
           "Flags": 0,
           "BodyGroups": 18446744073709551615,
           "CreateAttachments": false,
           "LodOverride": null,
           "MaterialGroup": null,
-          "MaterialOverride": "td/colormap.vmat",
+          "MaterialOverride": "colormap.vmat",
           "Materials": null,
-          "Model": "td/tower-round-crystals.vmdl",
+          "Model": "tower-round-crystals.vmdl",
           "OnComponentDestroy": null,
           "OnComponentDisabled": null,
           "OnComponentEnabled": null,
@@ -481,43 +265,154 @@
           },
           "RenderType": "On",
           "Tint": "1,1,1,1"
-        },
+        }
+      ],
+      "Children": []
+    },
+    {
+      "__guid": "53c0700a-986c-402d-be0c-c24d8c84eed8",
+      "__version": 2,
+      "Flags": 0,
+      "Name": "detail-rocks-large",
+      "Position": "53.4871521,2123.76221,0.278876781",
+      "Rotation": "0,0,0,1",
+      "Scale": "1,1,1",
+      "Tags": "",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkFlags": 0,
+      "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
+      "OwnerTransfer": 1,
+      "Components": [
         {
-          "__type": "Sandbox.CapsuleCollider",
-          "__guid": "8d2ac8da-889e-4789-90fb-460dbcc77d55",
+          "__type": "Sandbox.ModelRenderer",
+          "__guid": "e46564e2-81de-4697-8f65-20c4aec2a5c5",
           "__enabled": true,
           "Flags": 0,
-          "ColliderFlags": 0,
-          "Elasticity": null,
-          "End": "0,0,10",
-          "Friction": null,
-          "IsTrigger": false,
+          "BodyGroups": 18446744073709551615,
+          "CreateAttachments": false,
+          "LodOverride": null,
+          "MaterialGroup": null,
+          "MaterialOverride": "colormap.vmat",
+          "Materials": null,
+          "Model": "detail-rocks-large.vmdl",
           "OnComponentDestroy": null,
           "OnComponentDisabled": null,
           "OnComponentEnabled": null,
           "OnComponentFixedUpdate": null,
           "OnComponentStart": null,
           "OnComponentUpdate": null,
-          "OnObjectTriggerEnter": null,
-          "OnObjectTriggerExit": null,
-          "OnTriggerEnter": null,
-          "OnTriggerExit": null,
-          "Radius": 51.220062,
-          "RollingResistance": null,
-          "Start": "0,0,0",
-          "Static": false,
-          "Surface": null,
-          "SurfaceVelocity": "0,0,0"
+          "RenderOptions": {
+            "GameLayer": true,
+            "OverlayLayer": false,
+            "BloomLayer": false,
+            "AfterUILayer": false
+          },
+          "RenderType": "On",
+          "Tint": "1,1,1,1"
         }
       ],
       "Children": []
     },
     {
-      "__guid": "8f262a7f-c289-4fc1-bd02-447fdc085b00",
+      "__guid": "6f15682d-b0cc-4b5e-9416-083ea606b039",
       "__version": 2,
       "Flags": 0,
-      "Name": "weapon-cannon",
-      "Position": "270.472992,1286.10498,-17.1610451",
+      "Name": "detail-rocks-large (1)",
+      "Position": "135.245285,2133.46582,-0.443470001",
+      "Rotation": "0,0,0,1",
+      "Scale": "1,1,1",
+      "Tags": "",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkFlags": 0,
+      "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
+      "OwnerTransfer": 1,
+      "Components": [
+        {
+          "__type": "Sandbox.ModelRenderer",
+          "__guid": "d8202d66-7ffa-4e9e-bf30-0cd9e8024a01",
+          "__enabled": true,
+          "Flags": 0,
+          "BodyGroups": 18446744073709551615,
+          "CreateAttachments": false,
+          "LodOverride": null,
+          "MaterialGroup": null,
+          "MaterialOverride": "colormap.vmat",
+          "Materials": null,
+          "Model": "detail-rocks-large.vmdl",
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "RenderOptions": {
+            "GameLayer": true,
+            "OverlayLayer": false,
+            "BloomLayer": false,
+            "AfterUILayer": false
+          },
+          "RenderType": "On",
+          "Tint": "1,1,1,1"
+        }
+      ],
+      "Children": []
+    },
+    {
+      "__guid": "b965728e-03d0-4ac7-ae31-f8d038155e42",
+      "__version": 2,
+      "Flags": 0,
+      "Name": "detail-rocks-large (2)",
+      "Position": "103.092522,2037.90076,-0.811658859",
+      "Rotation": "0,0,0,1",
+      "Scale": "1,1,1",
+      "Tags": "",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkFlags": 0,
+      "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
+      "OwnerTransfer": 1,
+      "Components": [
+        {
+          "__type": "Sandbox.ModelRenderer",
+          "__guid": "f4eb1ca3-9572-44f1-a722-22d1ab037c04",
+          "__enabled": true,
+          "Flags": 0,
+          "BodyGroups": 18446744073709551615,
+          "CreateAttachments": false,
+          "LodOverride": null,
+          "MaterialGroup": null,
+          "MaterialOverride": "colormap.vmat",
+          "Materials": null,
+          "Model": "detail-rocks-large.vmdl",
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "RenderOptions": {
+            "GameLayer": true,
+            "OverlayLayer": false,
+            "BloomLayer": false,
+            "AfterUILayer": false
+          },
+          "RenderType": "On",
+          "Tint": "1,1,1,1"
+        }
+      ],
+      "Children": []
+    },
+    {
+      "__guid": "01a4248b-3eec-460c-8348-fd4fe9714b07",
+      "__version": 2,
+      "Flags": 0,
+      "Name": "detail-tree-large",
+      "Position": "536.824585,1958.67188,1",
       "Rotation": "0,0,0,1",
       "Scale": "2,2,2",
       "Tags": "",
@@ -530,16 +425,16 @@
       "Components": [
         {
           "__type": "Sandbox.ModelRenderer",
-          "__guid": "e08bd430-b3f7-43dd-9823-3ac60f2e4780",
+          "__guid": "fe2d1690-875d-4fab-b92b-cd0ca839ea80",
           "__enabled": true,
           "Flags": 0,
           "BodyGroups": 18446744073709551615,
           "CreateAttachments": false,
           "LodOverride": null,
           "MaterialGroup": null,
-          "MaterialOverride": "td/colormap.vmat",
+          "MaterialOverride": "colormap.vmat",
           "Materials": null,
-          "Model": "td/weapon-cannon.vmdl",
+          "Model": "detail-tree-large.vmdl",
           "OnComponentDestroy": null,
           "OnComponentDisabled": null,
           "OnComponentEnabled": null,
@@ -554,43 +449,16 @@
           },
           "RenderType": "On",
           "Tint": "1,1,1,1"
-        },
-        {
-          "__type": "Sandbox.CapsuleCollider",
-          "__guid": "3fbed65d-36fa-408a-814b-e4f0fadc0d1b",
-          "__enabled": true,
-          "Flags": 0,
-          "ColliderFlags": 0,
-          "Elasticity": null,
-          "End": "0,0,10",
-          "Friction": null,
-          "IsTrigger": false,
-          "OnComponentDestroy": null,
-          "OnComponentDisabled": null,
-          "OnComponentEnabled": null,
-          "OnComponentFixedUpdate": null,
-          "OnComponentStart": null,
-          "OnComponentUpdate": null,
-          "OnObjectTriggerEnter": null,
-          "OnObjectTriggerExit": null,
-          "OnTriggerEnter": null,
-          "OnTriggerExit": null,
-          "Radius": 38.8999,
-          "RollingResistance": null,
-          "Start": "0,0,0",
-          "Static": false,
-          "Surface": null,
-          "SurfaceVelocity": "0,0,0"
         }
       ],
       "Children": []
     },
     {
-      "__guid": "a7f82a14-d60f-4300-8416-dee0709534ef",
+      "__guid": "4f5f1bdb-3016-495d-ba3b-b10efcc35a19",
       "__version": 2,
       "Flags": 0,
-      "Name": "weapon-catapult",
-      "Position": "279.864655,1425.88879,-15.7071037",
+      "Name": "detail-tree-large (1)",
+      "Position": "442.819458,2006.80103,0.959655762",
       "Rotation": "0,0,0,1",
       "Scale": "2,2,2",
       "Tags": "",
@@ -603,16 +471,108 @@
       "Components": [
         {
           "__type": "Sandbox.ModelRenderer",
-          "__guid": "2c6ea626-03b9-402e-bef4-491a4346b19c",
+          "__guid": "d86e41e7-ca4d-4537-8515-ded1a3874cfc",
           "__enabled": true,
           "Flags": 0,
           "BodyGroups": 18446744073709551615,
           "CreateAttachments": false,
           "LodOverride": null,
           "MaterialGroup": null,
-          "MaterialOverride": "td/colormap.vmat",
+          "MaterialOverride": "colormap.vmat",
           "Materials": null,
-          "Model": "td/weapon-catapult.vmdl",
+          "Model": "detail-tree-large.vmdl",
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "RenderOptions": {
+            "GameLayer": true,
+            "OverlayLayer": false,
+            "BloomLayer": false,
+            "AfterUILayer": false
+          },
+          "RenderType": "On",
+          "Tint": "1,1,1,1"
+        }
+      ],
+      "Children": []
+    },
+    {
+      "__guid": "28c60215-9f19-4b67-a611-fae8cfc516c5",
+      "__version": 2,
+      "Flags": 0,
+      "Name": "detail-tree-large (2)",
+      "Position": "555.327209,2052.36816,0.952453613",
+      "Rotation": "0,0,0,1",
+      "Scale": "2,2,2",
+      "Tags": "",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkFlags": 0,
+      "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
+      "OwnerTransfer": 1,
+      "Components": [
+        {
+          "__type": "Sandbox.ModelRenderer",
+          "__guid": "56f01aa2-9373-4565-a6a9-0f7a221fc1f7",
+          "__enabled": true,
+          "Flags": 0,
+          "BodyGroups": 18446744073709551615,
+          "CreateAttachments": false,
+          "LodOverride": null,
+          "MaterialGroup": null,
+          "MaterialOverride": "colormap.vmat",
+          "Materials": null,
+          "Model": "detail-tree-large.vmdl",
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "RenderOptions": {
+            "GameLayer": true,
+            "OverlayLayer": false,
+            "BloomLayer": false,
+            "AfterUILayer": false
+          },
+          "RenderType": "On",
+          "Tint": "1,1,1,1"
+        }
+      ],
+      "Children": []
+    },
+    {
+      "__guid": "8d3e504b-3eb8-4d0b-9e1a-0f44b40a88ad",
+      "__version": 2,
+      "Flags": 0,
+      "Name": "enemy-ufo-a-weapon",
+      "Position": "187.673523,1722.31665,-8.76957798",
+      "Rotation": "0,0,0,1",
+      "Scale": "1,1,1",
+      "Tags": "",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkFlags": 0,
+      "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
+      "OwnerTransfer": 1,
+      "Components": [
+        {
+          "__type": "Sandbox.ModelRenderer",
+          "__guid": "decb3bb4-71c8-4722-b4df-a75b42dc82fa",
+          "__enabled": true,
+          "Flags": 0,
+          "BodyGroups": 18446744073709551615,
+          "CreateAttachments": false,
+          "LodOverride": null,
+          "MaterialGroup": null,
+          "MaterialOverride": "colormap.vmat",
+          "Materials": null,
+          "Model": "enemy-ufo-a-weapon.vmdl",
           "OnComponentDestroy": null,
           "OnComponentDisabled": null,
           "OnComponentEnabled": null,
@@ -629,15 +589,15 @@
           "Tint": "1,1,1,1"
         },
         {
-          "__type": "Sandbox.CapsuleCollider",
-          "__guid": "3eaae827-1cea-409b-9981-61f0ac457492",
+          "__type": "Sandbox.ModelCollider",
+          "__guid": "edef9393-1e40-40ff-9d8c-3fb7ba560d39",
           "__enabled": true,
           "Flags": 0,
           "ColliderFlags": 0,
           "Elasticity": null,
-          "End": "0,0,10",
           "Friction": null,
           "IsTrigger": false,
+          "Model": "enemy-ufo-a-weapon.vmdl",
           "OnComponentDestroy": null,
           "OnComponentDisabled": null,
           "OnComponentEnabled": null,
@@ -648,15 +608,241 @@
           "OnObjectTriggerExit": null,
           "OnTriggerEnter": null,
           "OnTriggerExit": null,
-          "Radius": 43.280216,
           "RollingResistance": null,
-          "Start": "0,0,0",
           "Static": false,
           "Surface": null,
           "SurfaceVelocity": "0,0,0"
         }
       ],
       "Children": []
+    },
+    {
+      "__guid": "c596630a-8bd8-434f-b6df-5bde47fb4d2e",
+      "__version": 2,
+      "Flags": 0,
+      "Name": "snow-detail-crystal-large",
+      "Position": "-97.6465759,1998.66113,0.601455688",
+      "Rotation": "0,0,0,1",
+      "Scale": "1,1,1",
+      "Tags": "",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkFlags": 0,
+      "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
+      "OwnerTransfer": 1,
+      "Components": [
+        {
+          "__type": "Sandbox.ModelRenderer",
+          "__guid": "82a075af-f3d1-494d-bfd1-358015b8823b",
+          "__enabled": true,
+          "Flags": 0,
+          "BodyGroups": 18446744073709551615,
+          "CreateAttachments": false,
+          "LodOverride": null,
+          "MaterialGroup": null,
+          "MaterialOverride": "colormap.vmat",
+          "Materials": null,
+          "Model": "snow-detail-crystal-large.vmdl",
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "RenderOptions": {
+            "GameLayer": true,
+            "OverlayLayer": false,
+            "BloomLayer": false,
+            "AfterUILayer": false
+          },
+          "RenderType": "On",
+          "Tint": "1,1,1,1"
+        }
+      ],
+      "Children": []
+    },
+    {
+      "__guid": "8e36e6f1-f410-4ca2-9b49-290a8cb6d3bd",
+      "__version": 2,
+      "Flags": 0,
+      "Name": "snow-detail-crystal-large (1)",
+      "Position": "-180.823654,2071.0708,0.992111683",
+      "Rotation": "0,0,0,1",
+      "Scale": "1,1,1",
+      "Tags": "",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkFlags": 0,
+      "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
+      "OwnerTransfer": 1,
+      "Components": [
+        {
+          "__type": "Sandbox.ModelRenderer",
+          "__guid": "cfdc424a-b0e6-46cd-8eb7-79dfd0c15ba9",
+          "__enabled": true,
+          "Flags": 0,
+          "BodyGroups": 18446744073709551615,
+          "CreateAttachments": false,
+          "LodOverride": null,
+          "MaterialGroup": null,
+          "MaterialOverride": "colormap.vmat",
+          "Materials": null,
+          "Model": "snow-detail-crystal-large.vmdl",
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "RenderOptions": {
+            "GameLayer": true,
+            "OverlayLayer": false,
+            "BloomLayer": false,
+            "AfterUILayer": false
+          },
+          "RenderType": "On",
+          "Tint": "1,1,1,1"
+        }
+      ],
+      "Children": []
+    },
+    {
+      "__guid": "fd74a68f-bcc4-4ad1-a115-8da8f96f6065",
+      "__version": 2,
+      "Flags": 0,
+      "Name": "snow-detail-crystal-large (2)",
+      "Position": "-189.854004,1975.34338,0.927025378",
+      "Rotation": "0,0,0,1",
+      "Scale": "1,1,1",
+      "Tags": "",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkFlags": 0,
+      "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
+      "OwnerTransfer": 1,
+      "Components": [
+        {
+          "__type": "Sandbox.ModelRenderer",
+          "__guid": "4df7ef9e-9487-4512-b429-369dc21d0879",
+          "__enabled": true,
+          "Flags": 0,
+          "BodyGroups": 18446744073709551615,
+          "CreateAttachments": false,
+          "LodOverride": null,
+          "MaterialGroup": null,
+          "MaterialOverride": "colormap.vmat",
+          "Materials": null,
+          "Model": "snow-detail-crystal-large.vmdl",
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "RenderOptions": {
+            "GameLayer": true,
+            "OverlayLayer": false,
+            "BloomLayer": false,
+            "AfterUILayer": false
+          },
+          "RenderType": "On",
+          "Tint": "1,1,1,1"
+        }
+      ],
+      "Children": []
+    },
+    {
+      "__guid": "6753028e-14e2-44c5-a5ca-700c5ec999ee",
+      "__version": 2,
+      "__Prefab": "player.prefab",
+      "__PrefabInstancePatch": {
+        "AddedObjects": [],
+        "RemovedObjects": [],
+        "PropertyOverrides": [
+          {
+            "Target": {
+              "Type": "GameObject",
+              "IdValue": "44bb6a32-ba75-415b-87f7-d72150468284"
+            },
+            "Property": "Name",
+            "Value": "Player - Wolfieon"
+          },
+          {
+            "Target": {
+              "Type": "GameObject",
+              "IdValue": "44bb6a32-ba75-415b-87f7-d72150468284"
+            },
+            "Property": "Position",
+            "Value": "312.52655,1749.41394,1.04124999"
+          },
+          {
+            "Target": {
+              "Type": "GameObject",
+              "IdValue": "44bb6a32-ba75-415b-87f7-d72150468284"
+            },
+            "Property": "NetworkMode",
+            "Value": 1
+          },
+          {
+            "Target": {
+              "Type": "Component",
+              "IdValue": "78e967d6-bb34-465f-bf03-8228864498e2"
+            },
+            "Property": "Gravity",
+            "Value": false
+          },
+          {
+            "Target": {
+              "Type": "Component",
+              "IdValue": "78e967d6-bb34-465f-bf03-8228864498e2"
+            },
+            "Property": "LinearDamping",
+            "Value": 10
+          },
+          {
+            "Target": {
+              "Type": "Component",
+              "IdValue": "78e967d6-bb34-465f-bf03-8228864498e2"
+            },
+            "Property": "MassCenterOverride",
+            "Value": "0,0,0"
+          },
+          {
+            "Target": {
+              "Type": "GameObject",
+              "IdValue": "5492991d-b0ef-427e-9e34-f00fdfce1321"
+            },
+            "Property": "Rotation",
+            "Value": "0,0,-0.423216581,0.906028628"
+          },
+          {
+            "Target": {
+              "Type": "Component",
+              "IdValue": "154670de-88de-4944-a726-3f750dbda1b3"
+            },
+            "Property": "Friction",
+            "Value": 81
+          }
+        ],
+        "MovedObjects": []
+      },
+      "__PrefabIdToInstanceId": {
+        "44bb6a32-ba75-415b-87f7-d72150468284": "6753028e-14e2-44c5-a5ca-700c5ec999ee",
+        "e301267a-c6fe-4966-9a33-a7dccef0d2f3": "ed78c658-8a71-4c28-aa16-36d2965487fd",
+        "78e967d6-bb34-465f-bf03-8228864498e2": "7ee9840f-fdd9-4158-9bd4-b4478c0ef447",
+        "ebd4d2dc-bf14-420f-9d1f-ed7e4bf0050f": "b6f2ce31-4b8c-4d00-b10f-36d4c6833012",
+        "3b4ffc8a-8160-456a-81d1-3c374a6824b0": "daed8d10-6a70-44b4-b60d-2fc2a6e6168c",
+        "53c6f7e0-809a-4c1f-8551-062dbb3883f3": "cdb1cdff-7cbf-450d-9dfa-3c22cd366604",
+        "9e3c119d-e37a-4a3b-8aac-fa8ad97ea5c0": "6257eb0e-7068-44f3-9127-f87f7f3dc836",
+        "5492991d-b0ef-427e-9e34-f00fdfce1321": "4638a06b-05d9-4a1b-8e40-1b4d29c4c590",
+        "c3cdf77a-8f04-46db-98c4-6755fc992600": "a48df560-c13e-42ec-b1a0-9a7f89ae57ee",
+        "a0969223-84c5-4dd5-8291-894fdfdb20ea": "e04c9d69-607e-422c-84e6-feb20ed232bc",
+        "c2ff3daf-c2b4-482b-af67-de920ca02b21": "ad98c13f-ada9-4b85-a602-f90be92ba5a4",
+        "154670de-88de-4944-a726-3f750dbda1b3": "52156079-4be4-46f5-a2fb-6b3c809c0e7d"
+      }
     }
   ],
   "SceneProperties": {
@@ -679,13 +865,13 @@
       "CustomBounds": false
     },
     "GameObjectSystems": {
+      "Sandbox.MovieMaker.MovieRecorderSystem": {
+        "DisableClientRecording": false
+      },
       "Sandbox.Clutter.ClutterGridSystem": {
         "Storage": {
           "$blob": "1adfdf48-6a2d-4100-942c-9090e8bde2c3"
         }
-      },
-      "Sandbox.MovieMaker.MovieRecorderSystem": {
-        "DisableClientRecording": false
       },
       "Sandbox.SelectionSetsSystem": {
         "Data": {
